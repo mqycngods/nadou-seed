@@ -1,0 +1,27 @@
+{
+  "name": "orz-i",
+  "description": "orz-i.",
+  "version": "2.0.0",
+  "author": {
+    "name": "skua",
+    "email": "i@f2e.it"
+  },
+  "homepage": "https://orz-i.com",
+  "dependencies": {
+    "koa": "^1.4.0",
+    "koa-body": "^1.1.0",
+    "koa-compose": "^2.3.0",
+    "koa-generic-session": "^1.9.0",
+    "koa-html-minifier": "^1.0.1",
+    "koa-logger": "^1.1.0",
+    "koa-router": "^4.3.2",
+    "koa-static-cache": "^3.1.1",
+    "lodash": "^3.1.0",
+    "moment": "^2.9.0",
+    "pm2": "^1.1.1",
+    "request": "^2.51.0",
+    "sequelize": "^2.0.1",
+    "swig": "^1.4.2",
+    "winston": "^2.4.0"
+  }
+}

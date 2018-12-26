@@ -1,0 +1,16 @@
+{% extends './modules/common/templates/main.html' %}
+{% block style %}
+<link rel="stylesheet" type="text/css" href="{{ '/static/css/demo.css' }}" />
+{% endblock %}
+{% block content %}
+      <div class="app-main">
+        <div class="content-box">
+          Seed！
+          <div class="ajax-demo-get">点我get</div>
+          <div class="ajax-demo-post">点我post</div>
+        </div>
+      </div>
+{% endblock %}
+{% block script %}
+<script src="{{ '/static/js/demo.js'}}"></script>
+{% endblock %}
